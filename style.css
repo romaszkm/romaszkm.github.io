@@ -1,0 +1,73 @@
+:root {
+  --color-light: #EAE7DC;
+  --color-brown: #EAE7DC;
+  --color-grey: #8E8D8A;
+  --color-light-red: #E98074;
+  --color-red: #E85A4F;
+  --color-blue: #00ACFF;
+  --color-yellow: #FFF500;
+  --color-strong-blue: ORANGE;
+}
+
+html body {
+  background: BLACK;
+}
+
+#about-parent {
+  background: linear-gradient(-20deg, var(--color-blue) 10%, BLACK 10%);
+  padding-bottom: 50px;
+}
+
+#cennik-parent {
+  background: linear-gradient(20deg, WHITE 10%, var(--color-blue) 10%);
+/*  background: var(--color-blue);*/
+  padding-bottom: 50px;
+}
+
+#cennik {
+  background: var(--color-blue)
+}
+
+#kontakt-parent {
+  background: White;
+}
+
+.carousel-item{
+    height: 500px;
+}
+
+.carousel-item img{
+    height: 500px;
+    object-fit: cover;
+}
+
+#baner-logo {
+  object-fit: contain;
+  background: black;
+}
+
+.bg-custom {
+    background-color: rgba(0,0,0, 0.3);
+}
+
+/* Transition effect */
+.navbar {
+    -webkit-transition: all .3s ease 0s;
+    transition: all .3s ease 0s;
+}
+
+.price-my {
+  border: 5px solid #fff;
+  background: var(--color-blue);
+  
+  font-family: 'Lato', Arial, sans-serif;
+  height: 95px;
+  width: 95px;
+  border-radius: 50px;
+  line-height: 80px;
+  text-align: center;
+  color: #fff;
+  font-size: 25px;
+  font-weight: 700;
+  margin: auto;
+}
